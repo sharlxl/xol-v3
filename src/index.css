@@ -3,17 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  /* h1 {
-    @apply text-2xl;
-  }
-  h2 {
-    @apply text-xl;
-  } */
-  a {
-    @apply hover: text-[#535bf2];
-  }
-  button {
-    @apply border border-[#535bf2];
+  body {
+    @apply bg-background text-primaryText;
   }
 }
 /* :root {
